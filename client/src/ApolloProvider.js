@@ -1,3 +1,4 @@
+// require('dotenv').config()
 import React from 'react'
 import App from './App'
 import ApolloClient from 'apollo-client'
@@ -11,9 +12,12 @@ import introspectionQueryResultData from './fragmentTypes.json'
 const fragmentMatcher = new IntrospectionFragmentMatcher({
     introspectionQueryResultData
 })
+ 
+let URI
+process.env.NODE_ENV === 'development' ? URI = 'http://localhost:5000' : URI = 'https://wespace-merng-social-media-app.herokuapp.com/'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: URI
 })
 
 const authLink = setContext(() => {

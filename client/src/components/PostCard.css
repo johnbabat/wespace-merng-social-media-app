@@ -3,7 +3,8 @@
 }
 
 .post-text {
-    cursor: auto
+    cursor: auto;
+    white-space: pre-line;
 }
 
 .post-user > a {

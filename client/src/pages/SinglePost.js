@@ -76,7 +76,7 @@ function SinglePost(props) {
                         <Card.Content>
                             <Card.Header as={Link} to={`/user/${userId}`} >{username}</Card.Header>
                             <Card.Meta>{moment(createdAt).fromNow()}</Card.Meta>
-                            <Card.Description>{body}</Card.Description>
+                            <Card.Description style={{whiteSpace: "pre-line"}} >{body}</Card.Description>
                         </Card.Content>
                         <hr/>
                         <Card.Content extra>
