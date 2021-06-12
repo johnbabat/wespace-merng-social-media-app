@@ -1,0 +1,15 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    list-style: none;
+}

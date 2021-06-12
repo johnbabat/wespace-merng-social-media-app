@@ -1,0 +1,5 @@
+@media (max-width: 400px) {
+    .post-or-comment-delete-btn{
+        padding: 5px !important;
+    }
+}

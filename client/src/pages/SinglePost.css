@@ -1,0 +1,10 @@
+.post-comment {
+    margin-left: 11vh !important ;
+    width: inherit !important;
+    max-width: 680px !important;}
+
+@media (max-width: 1000px) {
+    .post-comment {
+        max-width: 620px !important;  
+    }
+}

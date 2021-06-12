@@ -1,0 +1,3 @@
+.ui.teal.button:focus, .ui.teal.buttons .button:focus {
+    background-color: #00b5ad;
+}

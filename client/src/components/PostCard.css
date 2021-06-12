@@ -1,0 +1,15 @@
+.post-content {
+    cursor: auto
+}
+
+.post-text {
+    cursor: auto
+}
+
+.post-user > a {
+    color: black;
+}
+
+.post-user > a:hover {
+    color: teal;
+}

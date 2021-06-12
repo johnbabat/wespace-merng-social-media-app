@@ -1,0 +1,10 @@
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.make-post {
+    margin: 15px auto;
+    max-width: 500px;
+}
